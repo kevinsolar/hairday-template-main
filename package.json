@@ -1,0 +1,21 @@
+{
+	"name": "hairday-template-main",
+	"description": "Aplicação web de agendamento para corte de cabelo",
+	"author": "Kevin Solar",
+	"version": "1.0.0",
+	"scripts": {
+		"server": "json-server --watch server.json --port 3350",
+		"build": "webpack",
+    "dev": "webpack serve",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"json-server": "^1.0.0-alpha.21"
+	},
+	"devDependencies": {
+		"webpack": "^5.89.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	}
+}
