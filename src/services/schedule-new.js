@@ -2,6 +2,7 @@ import { apiConfig } from "./api-cfg.js"
 
 export async function scheduleNew({ id, name, when }) {
 	try {
+    // faz a requisicao apra enviar os dados do agendamento
 		await fetch(`${apiConfig.baseURL}/schedules`, {
 			method: "POST",
 			headers: {
