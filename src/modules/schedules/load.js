@@ -1,5 +1,5 @@
 import { scheduleFetchByDay } from "../../services/schedule-fetch-by-day.js"
-import { schedulesShow } from "../schecules/show.js"
+import { schedulesShow } from "../schedules/show.js"
 import { hoursLoad } from "../form/hours-load.js"
 
 // Seleciona o input de data
@@ -15,5 +15,5 @@ export async function schedulesDay() {
 	schedulesShow({ dailySchedules })
 
 	// renderiza as horas disponiveis
-	hoursLoad({ date })
+	hoursLoad({ date, dailySchedules })
 }

@@ -1,4 +1,4 @@
-import { schedulesDay } from "../schecules/load.js"
+import { schedulesDay } from "../schedules/load.js"
 
 // select input date
 const selectedDate = document.getElementById("date")
